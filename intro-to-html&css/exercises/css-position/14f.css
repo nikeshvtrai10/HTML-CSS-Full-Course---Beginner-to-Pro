@@ -1,0 +1,60 @@
+body{
+    height: 3000px;
+}
+
+div{
+    font-family: Arial;
+}
+
+.image-side{
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.discord{
+    background-color: rgb(55, 55, 55);
+    position: fixed;
+    top: 0;
+    left: 70px;
+    bottom: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    color: white;
+    font-size: 14px;
+}
+
+.create-new{
+    font-size: 25px;
+    color: rgb(150, 150, 150);
+}
+
+.channel{
+    color: rgb(150, 150, 150);
+    margin-bottom: 16px;
+}
