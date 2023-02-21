@@ -1,0 +1,19 @@
+body{
+    height: 3000px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    font-family: Arial;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
